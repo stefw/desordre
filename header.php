@@ -16,16 +16,14 @@ if ( $paged >= 2 || $page >= 2 )
 
 ?></title>
 <meta name="description" content="" />
-<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fast.fonts.net/" />
 <link rel="dns-prefetch" href="//www.facebook.com" />
 <link rel="dns-prefetch" href="//www.google-analytics.com" />
 <link rel="dns-prefetch" href="//apis.google.com" />
 <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
-<link rel="prerender" href="<? echo home_url();?>/cinemap/" />
 <link type="text/plain" rel="author" href="/humans.txt" />
+
 <link rel="canonical" href="<?php echo get_site_url(); ?>"/>
-<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/_ico/114x114.png"/>
-<link rel="shortcut icon" type="image/gif" href="<?php echo get_template_directory_uri(); ?>/images/_ico/32x32.ico" />
 <!--[if lte IE 9]><link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/ie.css" type="text/css" media="screen" /><![endif]-->
 <!--[if lt IE 9]><link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/ie8.css" type="text/css" media="screen" /><![endif]-->
 <!--[if IE]><script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/ie.js"></script><![endif]-->
@@ -37,6 +35,22 @@ if ( $paged >= 2 || $page >= 2 )
 <meta name="twitter:creator" content="@_magicmorning_">
 <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/images/logo.png">
 <meta name="twitter:domain" content="<?php echo get_site_url(); ?>">
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-76x76.png" />
+<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon-16x16.png" sizes="16x16" />
+<meta name="msapplication-TileColor" content="#da532c" />
+<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/favicons/mstile-144x144.png" />
+<meta name="google-site-verification" content="vi5tl_2jezsz_opeGj1CqVAkjTP3PxGmiSkf_8ZzPTI" />
+
 
 <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/b0bf96da-b9be-49c5-8cfe-6cc1e0cf376c.css"/>
 
@@ -58,7 +72,6 @@ if ( $paged >= 2 || $page >= 2 )
 
 </head>
 <body>
-
 
 <div id="wrapper">
 	<div id="header">
