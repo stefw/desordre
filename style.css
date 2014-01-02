@@ -10,7 +10,7 @@ Theme Name: desordre.fr
 	Typography
 	
 *********************************************/
-body{font-family:'Helvetica W01 Roman';}
+body{font-family:'Trade Gothic W01';}
 p { margin: 1em 0; }
 h1 { font-size: 25px; font-weight: normal; }
 a.back { text-decoration: underline; }
@@ -49,8 +49,8 @@ a:hover { text-decoration: underline }
 .post .vvqbox { margin: 2em auto; }
 .post .date { color: #ccc; font-size: 12px; position: absolute; top: 0; right: 0; }
 
-.post h2 a { font-family:"FreightSans Bold";color: #000; text-decoration: none }
-.post h2 { font-family:"FreightSans Bold";font-size: 42px; line-height: 120%; font-weight: 700; }
+.post h2 a { font-family:'Helvetica W01'; color: #000; text-decoration: none }
+.post h2 {  font-family:'Helvetica W01'; font-size: 42px; line-height: 120%;  }
 
 .post h3 { color: #ccc; margin: 0 0 1em 0; font-family: Helvetica, Arial, sans-serif; font-size: 18px; font-weight: normal; line-height: 120%; }
 .post h4 { color: #CCC; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 120%; margin: 2em 0 1em 0; }

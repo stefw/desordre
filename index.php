@@ -34,7 +34,7 @@
 					<? $url = parse_url(get_post_meta( get_the_ID(), 'wpe_sourcepermalink', true ));
 					echo $url[host]; ?>
 					<span class="number-of-comments"><a href="<?php the_permalink() ?>" title="title">
-						<img src="/wp-content/themes/alliswell-min-theme-c53cba0/iconmonstr-link-icon.svg" class="link" />
+						<img src="/wp-content/themes/desordre/iconmonstr-link-icon.svg" class="link" />
 					</a></span>
 				</div><!-- close:post -->
 			<?php endwhile; ?>
