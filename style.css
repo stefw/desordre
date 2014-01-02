@@ -1,0 +1,186 @@
+/*  
+Theme Name: desordre.fr
+*/
+
+@import "css/reset.css";
+@import "css/forms.css";
+
+/********************************************
+	
+	Typography
+	
+*********************************************/
+body{font-family:'Helvetica W01 Roman';}
+p { margin: 1em 0; }
+h1 { font-size: 25px; font-weight: normal; }
+a.back { text-decoration: underline; }
+#search h2, #comments h3, #commentform h3, .emptysearch, .error {  font-size: 18px; font-weight: normal; }
+
+.back:link, .back:visited { color: #f60; }
+.back:hover, .back:active, .back:focus { color: #3A525C; }
+
+ a { color: #000;text-decoration: underline;font-family:'Helvetica W01 Roman';}
+a:hover { text-decoration: underline }
+.more-link { font-size: 12px; }
+
+
+/********************************************
+	
+	Layout
+	
+*********************************************/
+
+#wrapper { color: #999; font-family:'Helvetica W01 Roman'; font-size: 12px; line-height: 145%; margin: 0 auto; padding: 0 2em; width: 612px; }
+
+#header { margin: 0 0 -1em 0; padding: 3em 0 0 0; position: relative; }
+#header .description { font-size: 13px; }
+
+#header .description { margin: .5em 0 0 0 }
+
+.about_us{margin-top:50px;float:right;text-align:right}
+
+.post { margin: 4.6em 0; padding: 2em 0; position: relative; border-bottom: 1px solid #f0f0f0;font-family:'Helvetica W01 Roman';}
+.post p{font-family:'Helvetica W01 Roman';}
+.post img.attachment-post-thumbnail { float: left; margin: 0 2em 2em 0; padding: 0; }
+.post img, .post object, .post embed { display: block; }
+.post img { max-width: 100%; height: auto; }
+.post .number-of-comments a:link, .post .number-of-comments a:visited { color: #CCC }
+.post .number-of-comments a:hover, .post .number-of-comments a:active, .post .number-of-comments a:focus { color: #CCC }
+.post .vvqbox { margin: 2em auto; }
+.post .date { color: #ccc; font-size: 12px; position: absolute; top: 0; right: 0; }
+
+.post h2 a { font-family:"FreightSans Bold";color: #000; text-decoration: none }
+.post h2 { font-family:"FreightSans Bold";font-size: 42px; line-height: 120%; font-weight: 700; }
+
+.post h3 { color: #ccc; margin: 0 0 1em 0; font-family: Helvetica, Arial, sans-serif; font-size: 18px; font-weight: normal; line-height: 120%; }
+.post h4 { color: #CCC; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 120%; margin: 2em 0 1em 0; }
+.post h5 { color: #CCC;  font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 120%;  margin: 2em 0 1em 0; }
+.post blockquote cite { font-style: normal; }
+.post .number-of-comments a { text-decoration: underline;  }
+#comments { font-size: 13px; }
+
+
+.post .number-of-comments { position: absolute; right: 1em; }
+.post blockquote {  font-family: "Helvetica Neue", Arial, sans-serif;  background: #58c2ab; color:#FFF; margin-top: 2em; margin-bottom: 2em;padding: .1em 1.5em; position: relative; }
+.post blockquote a {  color:#000; text-decoration: underline }
+.post blockquote cite { display: block; text-align: right; }
+
+
+.post img.link{width:16px;	}
+
+
+
+.entry ul { list-style: none inside; padding: 0 1em; }
+.entry ol { list-style: decimal outside; padding: 0 2.5em; }
+.entry ul li { background: url(img/bullet.gif) 0 7px no-repeat; margin: 1em 0; padding: 0 0 0 15px; }
+.entry ol li { margin: 1em 0 }
+
+.social {text-align:right}
+.ids img{width: 30px;height:30px;}
+
+#commentform { background: #fff; margin: 2.3em 0 4.6em 0; padding: 0; }
+#commentform a:link, #commentform a:visited { color: #3A525C; }
+#commentform a:hover, #commentform a:active, #commentform a:focus { color: #CCC; }
+.comment { padding: 1.8em 1.6em; position: relative; overflow: hidden; border: 1px solid #f0f0f0; }
+.comment .date { bottom: 1em; position: absolute; right: 1em; }
+#comments h3 { margin: 0 0 2em 0; font-size: 18px; }
+#commentform h3 { margin: 0 0 25px 0; }
+#commentform p { font-size: 13px }
+.comment cite { font-style: normal; }
+.comment cite a { text-decoration: underline; }
+#comments h3, #commentform h3 { color: #CCC }
+.highlighted { border: 1px solid #f0f0f0;  }
+.highlighted a:link, .highlighted a:visited { color: #09C }
+.comment cite { color: #CCC }
+.comment .moderation { color: #FFF }
+
+.pagination { color: #CCC margin: -2.6em 0 4.6em 0; }
+.pagination div { float: left; margin: 0 2em 0 0; }
+.pagination a { text-decoration: underline;}
+.pagination a:link, .pagination a:visited { color: #CCC; }
+.pagination a:hover, .pagination a:active, .pagination a:focus { color: #999; }
+
+
+#sb-1 { float: left; width: 45%; }
+#sb-2 { float: right; width: 45%; }
+
+#sidebar { font-size: 13px; color: #828282; padding: 0 0 7em 0; margin: 4em 0 0 0; }
+
+#sidebar .email {  padding: 0 0 0 1.8em; }
+#sidebar #rss li { padding: 0; margin: .5em 0; }
+
+
+#footer {  padding: 1em 0; font-size: 11px; }
+#footer p { margin: 0; }
+
+
+.footer-widget { margin-bottom: 1.5em; }
+
+/********************************************
+	
+	Form Styles
+	
+*********************************************/
+
+.input-text, textarea { background: #000; border: none; padding: .3em;color: #FFF;-moz-border-radius: 5px;border-radius: 5px; }
+label { font-size: 1em; margin: 0 .5em; }
+#search-form label { position: absolute; top: -99999px; }
+p.input-submit { text-align: left}
+#commentform input { width: 43% }
+#commentform textarea { font-size: 1em; font-family: Helvetica, Arial, sans-serif; width: 560px; }
+#commentform #submit-comment { width: auto; font-size: 14px; border: 0; padding: 5px; background: #3A525C; color: #fff; }
+#search-form #submit { padding: 1px 13px; margin: 0 0 0 5px; }
+#search h2, .emptysearch, .error { color: #CCC; }
+
+
+
+/*
+Thanks http://www.positioniseverything.net/easyclearing.html
+*/
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+
+/* Smartphones landscape */
+@media (max-width: 480px) {
+	#header{margin-bottom: 150px;}
+	.about_us{position:absolute;top:20px;right:10px;text-align:left}
+	img.logo{width: 100px;}
+	.social {position:absolute;top:180px;text-align:left}
+	.ids img{width: 30px;height:30px;}
+	.input-text, textarea{ width: 200px;  }
+
+	#wrapper { width: 320px; padding: 0 1em; }
+	#wrapper .post img { width:  100%; height: auto;}
+	#wrapper .post img.link{width:16px;	}
+	
+	.post .date { right: auto; left: 0; }
+	
+	 #commentform textarea  { width: 380px; }
+	 
+	 #sb-1 { width: 42%; }
+	 #sb-2 { width: 42%; }
+	
+}
+
+/* Smartphones horizontile */
+@media (max-width: 320px) {
+	
+	#wrapper { width: 300px; padding: 0 0.5em; }
+	#wrapper .post img { width:  100%; height: auto;}
+	#wrapper .post img.link{width:16px;	}
+	
+}
+
