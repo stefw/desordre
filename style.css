@@ -19,7 +19,7 @@ a.back { text-decoration: underline; }
 .back:link, .back:visited { color: #f60; }
 .back:hover, .back:active, .back:focus { color: #3A525C; }
 
- a { color: #000;text-decoration: underline;font-family:'Helvetica W01 Roman';}
+ a { color: #000;text-decoration: underline;}
 a:hover { text-decoration: underline }
 .more-link { font-size: 12px; }
 
@@ -30,7 +30,7 @@ a:hover { text-decoration: underline }
 	
 *********************************************/
 
-#wrapper { color: #999; font-family:'Helvetica W01 Roman'; font-size: 12px; line-height: 145%; margin: 0 auto; padding: 0 2em; width: 612px; }
+#wrapper { color: #999; font-size: 20px; line-height: 145%; margin: 0 auto; padding: 0 2em; width: 612px; }
 
 #header { margin: 0 0 -1em 0; padding: 3em 0 0 0; position: relative; }
 #header .description { font-size: 13px; }
@@ -49,8 +49,8 @@ a:hover { text-decoration: underline }
 .post .vvqbox { margin: 2em auto; }
 .post .date { color: #ccc; font-size: 12px; position: absolute; top: 0; right: 0; }
 
-.post h2 a { font-family:'Helvetica W01'; color: #000; text-decoration: none }
-.post h2 {  font-family:'Helvetica W01'; font-size: 42px; line-height: 120%;  }
+.post h2 a {font-family:'Trade Gothic W01'; color: #000; text-decoration: none }
+.post h2 {  font-family:'Trade Gothic W01'; font-size: 42px; line-height: 120%;  }
 
 .post h3 { color: #ccc; margin: 0 0 1em 0; font-family: Helvetica, Arial, sans-serif; font-size: 18px; font-weight: normal; line-height: 120%; }
 .post h4 { color: #CCC; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 120%; margin: 2em 0 1em 0; }
@@ -115,6 +115,42 @@ a:hover { text-decoration: underline }
 
 
 .footer-widget { margin-bottom: 1.5em; }
+
+
+		
+	.post-nav {
+		overflow: hidden;
+		display: block;
+		margin-top: 50px;
+	}
+	.post-nav .btn-prev, .post-nav .btn-next {
+		font-size: 11px;
+		float: left;
+		max-width: 250px;
+		padding: 10px;
+		border: 1px solid #F5F5F5		
+		}
+	.post-nav .btn-prev:hover, .post-nav .btn-next:hover {
+		border: 1px solid #000		
+
+		}
+	.post-nav .btn-next {
+		float: right;
+		text-align: right
+	}	
+	.post-nav .btn-prev a, .post-nav .btn-next a {
+		color: #FFF;
+		background: #5c767f;
+		text-decoration:none;
+	}
+	
+	.fb-like{
+		margin: 0px;
+		margin-top: 20px;
+	}
+	
+	
+	
 
 /********************************************
 	
