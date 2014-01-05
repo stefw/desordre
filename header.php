@@ -30,15 +30,6 @@ if ( $paged >= 2 || $page >= 2 )
 <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/b0bf96da-b9be-49c5-8cfe-6cc1e0cf376c.css"/>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" media="screen" />
 
-<meta name="generator" content="@_magicmorning_" />
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@_magicmorning_">
-<meta name="twitter:title" content="DESORDRE">
-<meta name="twitter:description" content="">
-<meta name="twitter:creator" content="@_magicmorning_">
-<meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/images/logo.png">
-<meta name="twitter:domain" content="<?php echo get_site_url(); ?>">
-
 <link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-57x57.png" />
 <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-114x114.png" />
 <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/favicons/apple-touch-icon-72x72.png" />
@@ -66,23 +57,17 @@ if ( $paged >= 2 || $page >= 2 )
 		  <aside id="logodesordre" >
 		    <div class="clearfix">
 		    		    	 
-		    <a href="<?php echo home_url( '/' ); ?>"><img src="/wp-content/themes/svbtle/images/icons/desordre/desordre_150x150.png" class="logo"/></a>
-
-		    <div class="about_us"> 
-		    	<a href="/category/radar">radar</a> - <a href="/category/inspiration">inspiration</a> <br/>
-		    	a <a href="http://www.magicmorning.net/">MagicMorning</a> project
-		    </div>
-		    
+			    <a href="<?php echo home_url( '/' ); ?>"><img src="/wp-content/themes/desordre/img/desordre_150x150.png" class="logo"/></a>
+	
+			    <div class="about_us"> 
+			    	<a href="/category/radar">radar</a> - <a href="/category/inspiration">inspiration</a> <br/>
+			    	a <a href="http://www.magicmorning.net/">MagicMorning</a> project<br/>
+			    			    <?php get_search_form(); ?>
+			    </div>
 		    	
 		    </div>
 		  </aside>
 		
-			<aside class="social"> 
 
-
-
-				<?php get_search_form(); ?>
-			
-		  </aside>
 		  
 	</div><!-- close:header -->
