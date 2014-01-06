@@ -60,14 +60,32 @@ if ( $paged >= 2 || $page >= 2 )
 			    <a href="<?php echo home_url( '/' ); ?>"><img src="/wp-content/themes/desordre/img/desordre_150x150.png" class="logo"/></a>
 	
 			    <div class="about_us"> 
-			    	<a href="/category/radar">radar</a> - <a href="/category/inspiration">inspiration</a> <br/>
-			    	a <a href="http://www.magicmorning.net/">MagicMorning</a> project<br/>
-			    			    <?php get_search_form(); ?>
+					daily sources of graphical design, art, photography <br/>
+			    	categories : <a href="/category/radar">radar</a> - <a href="/category/inspiration">inspiration</a>
+			    	<?php get_search_form(); ?>
 			    </div>
-		    	
 		    </div>
 		  </aside>
+
+
 		
+<?php 
+$args = array(
+    'smallest'                  => 9, 
+    'largest'                   => 9,
+    'unit'                      => 'pt', 
+    'number'                    => 100,  
+    'format'                    => 'flat',
+    'orderby'                   => 'count', 
+    'order'                     => 'DESC',
+    'echo'                      => true
+); ?>
+
+<div style="margin-top:70px">
+	<?php wp_tag_cloud( $args ); ?>
+</div>
+
+
 
 		  
 	</div><!-- close:header -->
