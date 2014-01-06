@@ -153,22 +153,25 @@ Thanks http://www.positioniseverything.net/easyclearing.html
 /* Smartphones landscape */
 @media (max-width: 480px) {
 	#header{margin-bottom: 150px;}
-	.about_us{position:absolute;top:20px;right:10px;text-align:left}
+	.about_us{position:absolute;top:150px;text-align:left}
 	img.logo{width: 100px;}
 	.social {position:absolute;top:180px;text-align:left}
 	.ids img{width: 30px;height:30px;}
-	.input-text, textarea{ width: 200px;  }
+	.input-text, textarea{ width: 150px;  }
+	
+	input#s:focus{ -webkit-transition: width 1s ease-in-out;-moz-transition: width 1s ease-in-out;-o-transition: width 1s ease-in-out;transition: width 1s ease-in-out;width:98%;font-size: 2em;}
 
 	#wrapper { width: 320px; padding: 0 1em; }
 	#wrapper .post img { width:  100%; height: auto;}
 	#wrapper .post img.link{width:16px;	}
 	
+	.post h2 a {font-size: 1.8em; }
+	.post blockquote {  border-left: 10px solid #2a2a2a; margin-top: 2em; margin-bottom: 2em;padding: 0 1.5em; position: relative; font-size: 12px;line-height: 13px;}
+
+	
 	.post .date { right: auto; left: 0; }
 	
-	 #commentform textarea  { width: 380px; }
-	 
-	 #sb-1 { width: 42%; }
-	 #sb-2 { width: 42%; }
+
 	
 }
 
