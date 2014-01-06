@@ -1,4 +1,24 @@
-	<div id="footer" align="center">
+<?php 
+$args = array(
+    'smallest'                  => 9, 
+    'largest'                   => 9,
+    'unit'                      => 'pt', 
+    'number'                    => 100,  
+    'format'                    => 'flat',
+    'orderby'                   => 'count', 
+    'order'                     => 'DESC',
+    'echo'                      => true
+); ?>
+
+<div style="margin-top:70px">
+	<?php wp_tag_cloud( $args ); ?>
+</div>
+
+
+<div id="footer" align="center">
+
+
+
 	
 		<a href="http://www.magicmorning.net"><img  src="http://media.cargocollective.com/1/8/278221/headerimg/03_logo_cargo.png" width="60" /></a>
 		<br/>a magicmorning project

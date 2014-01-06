@@ -15,7 +15,6 @@ if ( $paged >= 2 || $page >= 2 )
 	echo ' | ' . sprintf( __( 'Page %s', 'cinemacity' ), max( $paged, $page ) );
 
 ?></title>
-<meta name="description" content="" />
 <link rel="dns-prefetch" href="//fast.fonts.net/" />
 <link rel="dns-prefetch" href="//www.facebook.com" />
 <link rel="dns-prefetch" href="//www.google-analytics.com" />
@@ -42,6 +41,7 @@ if ( $paged >= 2 || $page >= 2 )
 <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicons/favicon-16x16.png" sizes="16x16" />
 <meta name="msapplication-TileColor" content="#da532c" />
 <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/favicons/mstile-144x144.png" />
+
 <meta name="google-site-verification" content="vi5tl_2jezsz_opeGj1CqVAkjTP3PxGmiSkf_8ZzPTI" />
 <link rel="publisher" href="https://plus.google.com/u/0/107578434303073107452/">
 
@@ -66,25 +66,6 @@ if ( $paged >= 2 || $page >= 2 )
 			    </div>
 		    </div>
 		  </aside>
-
-
-		
-<?php 
-$args = array(
-    'smallest'                  => 9, 
-    'largest'                   => 9,
-    'unit'                      => 'pt', 
-    'number'                    => 100,  
-    'format'                    => 'flat',
-    'orderby'                   => 'count', 
-    'order'                     => 'DESC',
-    'echo'                      => true
-); ?>
-
-<div style="margin-top:70px">
-	<?php wp_tag_cloud( $args ); ?>
-</div>
-
 
 
 		  

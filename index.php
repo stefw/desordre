@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 	<div id="content">
+
 		<div id="main-content">
 		<?php if (have_posts()) : ?>
 			<?php while (have_posts()) : the_post(); ?>
