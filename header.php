@@ -43,7 +43,6 @@ if ( $paged >= 2 || $page >= 2 )
 <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/favicons/mstile-144x144.png" />
 
 <meta name="google-site-verification" content="vi5tl_2jezsz_opeGj1CqVAkjTP3PxGmiSkf_8ZzPTI" />
-<link rel="publisher" href="https://plus.google.com/u/0/107578434303073107452/">
 
 <?php wp_head();?>
 <meta property="fb:app_id" content="519323274755525" />
