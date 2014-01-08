@@ -9,7 +9,7 @@ Theme Name: desordre.fr
 	Typography
 	
 *********************************************/
-body{font-family:'ITC Officina Serif W01';}
+body{font-family:'OfficinaSerifITCW01-Boo 734543';}
 a { color: #000;text-decoration: underline;}
 a:hover { text-decoration: underline }
 
@@ -102,7 +102,6 @@ label { font-size: 1em; margin: 0 .5em; }
 		margin-bottom: 50px;
 	}
 	.post-nav .btn-prev, .post-nav .btn-next {
-		font-family: 'Helvetica W01 Light';
 		font-size: 16px;
 		float: left;
 		width: 250px;

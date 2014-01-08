@@ -54,16 +54,13 @@ if ( $paged >= 2 || $page >= 2 )
 	<div id="header">
 	
 		  <aside id="logodesordre" >
-		    <div class="clearfix">
-		    		    	 
-			    <a href="<?php echo home_url( '/' ); ?>"><img src="/wp-content/themes/desordre/img/desordre_150x150.png" class="logo"/></a>
-	
-			    <div class="about_us"> 
+		    	<div class="about_us"> 
 					daily sources of graphical design, art, photography <br/>
-			    	categories : <a href="/category/radar">radar</a> - <a href="/category/inspiration">inspiration</a>
+			    	categories : <a href="/radar">radar</a> - <a href="/inspiration">inspiration</a>
 			    	<?php get_search_form(); ?>
-			    </div>
-		    </div>
+			    </div> 
+			       	 
+			    <a href="<?php echo home_url( '/' ); ?>"><img src="/wp-content/themes/desordre/img/desordre_150x150.png" class="logo"/></a>
 		  </aside>
 
 
