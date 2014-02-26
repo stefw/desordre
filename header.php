@@ -49,7 +49,6 @@ if ( $paged >= 2 || $page >= 2 )
 
 </head>
 <body>
-
 <div id="wrapper">
 	<div id="header">
 	
